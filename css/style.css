@@ -8,6 +8,7 @@ body, html{
   color:#666;
 }
 
+/* Parallax */
 .pimg1, .pimg2, .pimg3{
 position: relative;
 opacity: 0.70;
@@ -44,5 +45,20 @@ background-attachment:fixed;
 .section-dark{
   background-color:#282e34;
   color:#ddd;
+}
 
+.ptext{
+position: absolute;
+top:50%;
+width:100%
+text-align:center;
+color:#000;
+font-size:27px;
+letter-spacing:8px;
+text-transform:uppercase;
+}
+.ptext .border{
+  background-color: #111;
+  color:#fff;
+  padding:20px;
 }
