@@ -7,8 +7,31 @@ body, html{
   line-height:1.8em;
   color:#666;
 }
+/* HEADER */
+#header{
 
-/* Parallax */
+}
+#header.logo{
+
+}
+#header .main-nav{
+  color:#666;
+}
+#header .main-nav ul{
+  text-decoration: none;
+  list-style: none;
+  margin:0;
+  padding:0;
+
+}
+
+#header #social ul{
+
+}
+
+
+
+/* PARALLAX */
 .pimg1, .pimg2, .pimg3{
 position: relative;
 opacity: 0.70;
@@ -43,7 +66,7 @@ background-attachment:fixed;
 }
 
 .section-dark{
-  background-color:#282e34;
+  background-color:#5EC3AE; /* ALTERNATE COLOUR 282e34 */
   color:#ddd;
 }
 
@@ -65,4 +88,11 @@ text-transform:uppercase;
 
 .ptext .border.trans{
   background-color:transparent;
+}
+
+/* MEDIA QUERIES */
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment: scroll;
+  }
 }
